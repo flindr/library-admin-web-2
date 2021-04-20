@@ -29,17 +29,7 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
+                <h1>{process.env.NODE_ENV}</h1>
                 <GoogleLogin
                     clientId={
                         "935364814037-vc5cj146voc1f14jsqh5tgeqciorq324.apps.googleusercontent.com"
